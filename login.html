@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="dist/main.css" />
+
+</head>
+
+<body>
+  <header class="p-3 text-bg-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <!--img-->
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" class="nav-link px-2 text-secondary">Home</a></li>
+          <li><a href="marka.html" class="nav-link px-2 text-white">Markalar</a></li>
+          <li><a href="yayinevi.html" class="nav-link px-2 text-white">Yayınevleri</a></li>
+          <li><a href="yazarlar.html" class="nav-link px-2 text-white">Yazarlar</a></li>
+          <li><a href="magazalar.html" class="nav-link px-2 text-white">Mağazalar</a></li>
+          <li><a href="contact.html" class="nav-link px-2 text-white">İletişim</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control form-control-dark text-bg-dark " id="search-input"
+            placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-warning me-2"><a href="login.html"
+              class="text-decoration-none text-light" role="button">Login</a></button>
+          <button type="button" class="btn btn-warning"><a href="register.html" class="text-decoration-none text-light"
+              role="button">Sign-up</a></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="vh-100">
+    <sidebar class="content text-bg-dark">
+      <article class="content-item">
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark h-100" style="width: 280px;">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <svg class="bi pe-none me-2" width="40" height="32">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+            <div class="box fs-4 fw-bold border border-dark make-me-sticky">Kitaplar</div>
+          </a>
+          <hr>
+
+          <div class="overflow-auto d-flex flex-column align-items-center">
+            <div class="collapse-menu text-left ">
+              <input type="checkbox" class="d-none form-check-input btn-check" id="collapse1" />
+              <label for="collapse1" class="form-check-label">
+                <p class="text-warning fw-bold border border-warning rounded-3 fs-5 text-center">Çocuk Kitapları</p>
+                <div class="sidebar">
+                  <ul class="list-group-item">
+                    <li class="list-group-item"><a href="little-red-riding-hood.html"
+                        class="text-decoration-none d-block text-light mb-2 btn btn-outline-warning"
+                        role="button">Kırmızı Başlıklı Kız</a></li>
+                    <li class="list-group-item"><a href="love.html"
+                        class="text-decoration-none d-block text-light mb-2 btn btn-outline-warning">Sevginin Gücü</a>
+                    </li>
+                    <li class="list-group-item"><a href="queen.html"
+                        class="text-decoration-none d-block text-light mb-2 btn btn-outline-warning">Kraliçeyi
+                        Kurtarmak</a></li>
+                    <li class="list-group-item"><a href="sleep.html"
+                        class="text-decoration-none d-block text-light mb-2 btn btn-outline-warning">Uyku Zamanı</a>
+                    </li>
+                  </ul>
+                </div>
+              </label>
+            </div>
+            <hr>
+
+            <div class="collapse-menu text-left">
+              <input type="checkbox" class="d-none form-check-input btn-check" id="collapse1" />
+              <label for="collapse1" class="form-check-label">
+                <p class="text-warning fw-bold border border-warning rounded-3 fs-5 text-center">Çocuk Kitapları</p>
+                <div>
+                  <ul class="list-group-item">
+                    <li class="list-group-item"><a href="little-red-riding-hood.html"
+                        class="text-decoration-none d-block text-light mb-2 btn btn-outline-warning"
+                        role="button">Kırmızı Başlıklı Kız</a></li>
+                    <li class="list-group-item"><a href="love.html"
+                        class="text-decoration-none d-block text-light mb-2 btn btn-outline-warning">Sevginin Gücü</a>
+                    </li>
+                    <li class="list-group-item"><a href="queen.html"
+                        class="text-decoration-none d-block text-light mb-2 btn btn-outline-warning">Kraliçeyi
+                        Kurtarmak</a></li>
+                    <li class="list-group-item"><a href="sleep.html"
+                        class="text-decoration-none d-block text-light mb-2 btn btn-outline-warning">Uyku Zamanı</a>
+                    </li>
+                  </ul>
+                </div>
+              </label>
+            </div>
+            <hr>
+
+
+            <div class="collapse-menu text-left ">
+              <input type="checkbox" class="d-none form-check-input btn-check" id="collapse1" />
+              <label for="collapse1" class="form-check-label">
+                <p class="text-warning fw-bold border border-warning rounded-3 fs-5 text-center">Çocuk Kitapları</p>
+                <div class="sidebar">
+                  <ul class="list-group-item">
+                    <li class="list-group-item"><a href="little-red-riding-hood.html"
+                        class="text-decoration-none d-block text-light mb-2 btn btn-outline-warning"
+                        role="button">Kırmızı Başlıklı Kız</a></li>
+                    <li class="list-group-item"><a href="love.html"
+                        class="text-decoration-none d-block text-light mb-2 btn btn-outline-warning">Sevginin Gücü</a>
+                    </li>
+                    <li class="list-group-item"><a href="queen.html"
+                        class="text-decoration-none d-block text-light mb-2 btn btn-outline-warning">Kraliçeyi
+                        Kurtarmak</a></li>
+                    <li class="list-group-item"><a href="sleep.html"
+                        class="text-decoration-none d-block text-light mb-2 btn btn-outline-warning">Uyku Zamanı</a>
+                    </li>
+                  </ul>
+                </div>
+              </label>
+            </div>
+            <hr>
+
+
+          </div>
+      </article>
+    </sidebar>
+
+    <div class="div-form border border-5 border-warning d-flex flex-column align-items-center justify-content-center bg-dark text-light rounded">
+      <form class="form-app" id="login-page" action="index.html">
+        <div>
+          <label for="username">Kullanıcı Adı:</label><br />
+          <input type="text" id="username" name="username" placeholder="Kullanıcı Adı" required>
+        </div>
+        <div class="password">
+          <label for="password">Şifre:</label><br>
+          <input type="password" id="password" name="password" placeholder="Şifre" required>
+        </div>
+        <div>
+          <button type="submit" class="btn btn-warning mx-5 my-1" id="btn-login">Giriş Yap</button>
+        </div>
+        <div class="remember">
+          <input type="checkbox" id="rememberMe" name="rememberme">
+          <label for="rememberme">Beni Hatırla</label>
+        </div>
+        <div>
+          <span class="psw"><a href="#" class="text-warning">Şifrenizi</a> unuttunuz mu?</span>
+        </div>
+      </form>
+    </div>
+
+  </main>
+  <script src="dist/main.js"></script>
+</body>
+
+</html>

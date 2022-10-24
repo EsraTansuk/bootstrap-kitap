@@ -1,0 +1,27 @@
+.product{
+  margin-left: 20.7%;
+
+  &-menu{
+    width: $product-item-width;
+  }
+  &-item {
+    a {
+      text-decoration: none;
+    }
+
+  }
+
+}
+
+.div-form {
+  margin-left: 37%;
+  width: 35%;
+  min-height: 40%;
+  margin-top: 4%;
+  position: absolute;
+
+  a{
+    text-decoration: none;
+
+  }
+}
